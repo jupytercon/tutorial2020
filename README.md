@@ -2,7 +2,10 @@
 
 [JupyterCon](https://jupytercon.com) will use this template to create a new repository for each tutorial, with speakers added as collaborators. 
 
-We also include here instructions for tutorial speakers.
+We also include here [instructions for tutorial speakers](https://github.com/jupytercon/tutorial2020/blob/master/Tutorial_Speakers_Guide.md). 
+Please follow these instructions carefully, and email us if you have questions: [jupytercon-tutorials@numfocus.org](mailto:jupytercon-tutorials@numfocus.org)
+
+You can delete this file (or rename it) and replace it by a README file that targets the contents of this repository, populated with your tutorial materials.
 
 ## Tutorial Chairs for 2020
 
