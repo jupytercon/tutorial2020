@@ -19,7 +19,7 @@ It is a project of [NumFOCUS](https://numfocus.org), with a fully volunteer team
 
 ### What is NumFOCUS?
 
-NumFOCUS is a 501(c)-3 non-profit in the United States. 
+> NumFOCUS is a 501(c)-3 non-profit in the United States. 
 Its mission is to promote open practices in research, data, and scientific computing by serving as a fiscal sponsor for open source projects and organizing community-driven educational programs. 
 NumFOCUS envisions an inclusive scientific and research community that utilizes actively supported open source software to make impactful discoveries for a better world.
 
@@ -33,6 +33,7 @@ Tutorial basic format:
 - Three or four Jupyter notebooks (at minimum), each notebook corresponding to "one lesson" – printed, estimate between 10–20 pages, or 17 to 35 min to read, per notebook.
 - Estimate for the material to be 1.5 to 3 hours to work through interactively.
 - The notebooks are complemented with videos, 25–30 min in length (not longer); at least one video per notebook.
+- Optional exercises for participants, instrumented for auto-grading.
 - One full tutorial may add up to total-time-on-task by the learners of about 4.5 hours.
 
 ## License
