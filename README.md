@@ -31,3 +31,8 @@ Tutorial basic format:
 - Estimate the material is 1.5 to 3 hours to work through interactively.
 - The notebooks are complemented with videos, 25–30 min in length (not longer); at least one video per notebook.
 - One full tutorial may add up to total-time-on-task by the learners of about 4.5 hours.
+
+## License
+
+The source materials for JupyterCon tutorials are copyright of their authors. 
+We ask that materials be shared under standard public licenses. We recommend code be under BSD-3 or MIT license, and other materials be under a CC-BY Creative Commons Attribution license.
