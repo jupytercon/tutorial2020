@@ -28,7 +28,7 @@ Tutorial instructors will be able to exploit these tools to make their content s
 
 ### Course platform
 
-We've deployed a full-fledged online course platform, using the Open edX software. 
+We've deployed a full-fledged online course platform, using the [Open edX software](https://open.edx.org/about-open-edx/). 
 With speaker-provided materials (video and Jupyter notebooks), JupyterCon volunteers and NumFOCUS staff will build an online course. 
 It can include quizzes and auto-graded "homework" exercises, to reinforce the partcipants' learning.
 
@@ -54,3 +54,14 @@ We have deployed a Mattermost server, and integrated it to the course platform v
 
 The online course platform also includes a custom plug-in that allows us to schedule video calls using our Webex account. 
 Participants will be able to join he call with one click from the course.
+
+## Guide to crafting your materials
+
+### Jupyter notebooks
+
+Your tutorial should be written as a set of Jupyter notebooks—at least three or four fully narranted notebooks—walking your reader through the complete path to achieve the learning objectives. 
+
+Each Jupyter notebook is "one lesson" and will correspond to "one section" in the online course. 
+Printed, it should be 10 to 20 pages, or 17 to 35 minutes to read. 
+The computational portions should be presented as worked-out examples, broken down into steps, and narrated. 
+
