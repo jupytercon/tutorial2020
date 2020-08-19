@@ -30,8 +30,8 @@ The notebooks should be complete and polished, amply narrated worked-out example
 
 Tutorial basic format:
 
-- Three or four Jupyter notebooks, each notebook = "one lesson" – printed, estimate between 10–20 pages, or 17 to 35 min to read
-- Estimate the material is 1.5 to 3 hours to work through interactively.
+- Three or four Jupyter notebooks (at minimum), each notebook corresponding to "one lesson" – printed, estimate between 10–20 pages, or 17 to 35 min to read, per notebook.
+- Estimate for the material to be 1.5 to 3 hours to work through interactively.
 - The notebooks are complemented with videos, 25–30 min in length (not longer); at least one video per notebook.
 - One full tutorial may add up to total-time-on-task by the learners of about 4.5 hours.
 
