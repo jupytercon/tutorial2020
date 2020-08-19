@@ -47,7 +47,7 @@ In addition, we've developed integrations so that it will be possible for tutori
 ### Chat server
 
 [Mattermost](https://mattermost.com) is an open-source, self-hosted "Slack alternative." 
-We have deployed a Mattermost server, and integrated it to the course platform via single-sign-on, providing a secure environment for all participants to hold text-based conversations throughout the conference.
+We have deployed a Mattermost server, and integrated it to the course platform via single-sign-on, providing a secure environment for all participants to hold text-based conversations throughout the conference, and beyond.
 
 
 ### Video conferencing
@@ -62,6 +62,22 @@ Participants will be able to join he call with one click from the course.
 Your tutorial should be written as a set of Jupyter notebooks—at least three or four fully narranted notebooks—walking your reader through the complete path to achieve the learning objectives. 
 
 Each Jupyter notebook is "one lesson" and will correspond to "one section" in the online course. 
-Printed, it should be 10 to 20 pages, or 17 to 35 minutes to read. 
+Printed, it should be 10 to 20 pages, equivalent to 17 to 35 minutes reading time. 
 The computational portions should be presented as worked-out examples, broken down into steps, and narrated. 
+
+Because the Jupyter notebooks will be ingested into the content management system of the learning platform, to display learning sequences, it is _very important_ that you break up the notebook in sections and sub-sections. 
+The section headings, marked by `#`, `##` and so on, will be used as delimiters in the learning sequence to display portions of your notebook. 
+That way, the learning sequence can interleave content from the notebooks, videos, self-assessments (e.g., multiple choice quiz), graded Jupyter notebooks, video call schedulers, etc.
+
+In other words, your Jupyter notebooks are like the "textbook," while a learning sequence mixes this content with other experiences or activities.
+
+**Pro tip**: while you are writing your content as Jupyter notebooks, always _clear output_ before pushing to the repository.
+This will facilitate diff-viewing and keep the repo smaller. 
+Only push the notebooks with output once you feel they are done. 
+If you later fix a typo or make a small edit to markdown cells, push the change without re-running the notebook.
+
+### Videos
+
+We will be working with a media company to provide speakers with support in their creation of high-quality pre-recorded videos. 
+These videos can be content-dense, as the live interactions during tutorials week will allow for instructors to guide participants in their learning.
 
