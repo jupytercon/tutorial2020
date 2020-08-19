@@ -15,7 +15,7 @@ The written materials must be on Jupyter notebooks because the course building p
 
 ## Speaker commitment:
 The speakers will be asked to deliver their prepared materials by **September 11, 2020**, for the JupyterCon team to prepare an online course using the materials, on the JupyterCon learning platform. 
-The speakers will be asked to participate in “office hours” on a video conference with participants during the tutorials week (5–9 October). Speakers are requested to participate in the chat discussions during the tutorials week, as their time permits.
+The speakers will be asked to participate in “office hours” on a video conference with participants during the tutorials week (5–9 October). Speakers are requested to participate in the chat discussions during the tutorials and conference weeks, as their time permits.
 
 ## JupyterCon commitment: 
 JupyterCon and NumFOCUS volunteers and staff will build the online courses using instructor-created materials.
