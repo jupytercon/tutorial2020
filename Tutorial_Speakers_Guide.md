@@ -32,6 +32,12 @@ We've deployed a full-fledged online course platform, using the Open edX softwar
 With speaker-provided materials (video and Jupyter notebooks), JupyterCon volunteers and NumFOCUS staff will build an online course. 
 It can include quizzes and auto-graded "homework" exercises, to reinforce the partcipants' learning.
 
+The course platform includes a custom extension that allows creating course content _from any publicly available Jupyter notebook_, using its URL. 
+Pulling content from Jupyter notebooks allows us to build a learning sequence from the author-provided content, without duplication.
+
+We also have a custom extension that allows writing exercises for the participants that are tested on-the-fly for correctness. 
+This allows creating Jupyter-based "homework" assignments that are auto-graded in the platform.
+
 ### JupyterHub/MyBinder
 
 JupyterCon is deploying a dedicated JupyterHub server that all participants will have access to. 
