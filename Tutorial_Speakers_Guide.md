@@ -20,3 +20,31 @@ The speakers will be asked to participate in “office hours” on a video confe
 ## JupyterCon commitment: 
 JupyterCon and NumFOCUS volunteers and staff will build the online courses using instructor-created materials.
 All source course material will be publicly available for free (videos on the JupyterCon YouTube channel and Jupyter notebooks on GitHub), but the online courses created in the JupyterCon platform will be accessible to registered participants only. The online course created with the contributed materials will remain after the conference is past. The course platform will embed a discussion forum, using a Mattermost instance provided by NumFOCUS/JupyterCon.
+
+## Infrastructure
+
+JupyterCon will deploy an ecosystem of tools and platforms to provide online learning experiences to all attendees. 
+Tutorial instructors will be able to exploit these tools to make their content shine.
+
+### Course platform
+
+We've deployed a full-fledged online course platform, using the Open edX software. 
+With speaker-provided materials (video and Jupyter notebooks), JupyterCon volunteers and NumFOCUS staff will build an online course. 
+It can include quizzes and auto-graded "homework" exercises, to reinforce the partcipants' learning.
+
+### JupyterHub/MyBinder
+
+JupyterCon is deploying a dedicated JupyterHub server that all participants will have access to. 
+In addition, we've developed integrations so that it will be possible for tutorial attendees to launch a JupyterHub session with the notebooks provided by the instructor, so they can interact with the computable content. 
+
+
+### Chat server
+
+[Mattermost](https://mattermost.com) is an open-source, self-hosted "Slack alternative." 
+We have deployed a Mattermost server, and integrated it to the course platform via single-sign-on, providing a secure environment for all participants to hold text-based conversations throughout the conference.
+
+
+### Video conferencing
+
+The online course platform also includes a custom plug-in that allows us to schedule video calls using our Webex account. 
+Participants will be able to join he call with one click from the course.
