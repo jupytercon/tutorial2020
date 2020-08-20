@@ -25,7 +25,7 @@ All source course material will be publicly available for free (videos on the Ju
 
 ## Infrastructure
 
-JupyterCon will deploy an ecosystem of tools and platforms to provide online learning experiences to all attendees. 
+JupyterCon has deployed an ecosystem of tools and platforms to provide online learning experiences to all attendees. 
 Tutorial instructors will be able to exploit these tools to make their content shine.
 
 ### Course platform
@@ -42,8 +42,11 @@ This allows creating Jupyter-based "homework" assignments that are auto-graded i
 
 ### JupyterHub/MyBinder
 
-JupyterCon is deploying a dedicated JupyterHub server that all participants will have access to. 
+JupyterCon will have a dedicated JupyterHub server that all participants will have access to. 
 In addition, we've developed integrations so that it will be possible for tutorial attendees to launch a JupyterHub session with the notebooks provided by the instructor, so they can interact with the computable content. 
+
+In your outline, you can specify places in the course content where you want learners to find a "Launch Lab" button, which will launch a Jupyter session with your notebooks pre-loaded. 
+You need to provide an environment definition in the repository, via a `requirements.txt` file.
 
 
 ### Chat server
