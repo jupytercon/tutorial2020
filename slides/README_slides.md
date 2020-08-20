@@ -24,7 +24,7 @@ jupyter:
 ## Use text-based source
 
 - We ask that you use text-based formats for your slides, e.g., markdown 
-- This markdown file is an example source for slides using `nbconvert` and Reveal.
+- This markdown file is an example source for slides using `nbconvert` and Reveal. See the GitHub action '.github/workflows/slides.yml' in this repo so see how this markdown file is converted to a HTML slide show and published on GitHub Pages - https://jupytercon.github.io/tutorial2020/
 
 +++ {"slideshow": {"slide_type": "subslide"}}
 
@@ -44,4 +44,4 @@ jupyter:
 
 ## License
 
-**Recommend** that slides be shared under a CC-BY license.
+**Recommend** that slides be shared under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
