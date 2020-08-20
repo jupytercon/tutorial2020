@@ -85,4 +85,31 @@ If you later fix a typo or make a small edit to markdown cells, push the change 
 
 We will be working with a media company to provide speakers with support in their creation of high-quality pre-recorded videos. 
 These videos can be content-dense, as the live interactions during tutorials week will allow for instructors to guide participants in their learning.
+(Read the [tweet thread by @gregork](https://twitter.com/gregork/status/1291760045269508096) about online videos.)
 
+Your videos can be recorded as a screencast of you live coding and narrating, a slide-based presentation, a camera capture of yourself explaining or narrating some concept, or a mix of all these. 
+You can provide video segments and request our media team to post-process, as needed. 
+
+### Slides
+
+If you will have any portions of your presentation using slides, you can include them in the repository. 
+We strongly encourage the use of text-based source for slides, and provide a simple example in the `slides` folder, using Jupytext and Reveal. 
+View the example at [https://jupytercon.github.io/tutorial2020/#/](https://jupytercon.github.io/tutorial2020/#/)
+
+### Learner self-assessments
+
+A good tutorial will provide several opportunities for learners to self-assess, and we ask instructors to build these into their tutorial. 
+We request that you share the assessments with us privately (i.e., they should not be included in the public repository).
+
+You can craft simple multiple-choice questions to supplement video or written content. In this case, if  you provide them to us in this markdown format, so we can embed them in the course:
+
+`>>Statement of the question <<
+
+( ) wrong answer
+(x) right answer
+( ) wrong answer
+( ) wrong answer
+
+[Explanation]
+A short explanation to help learner get it right next time.
+[Explanation]`
