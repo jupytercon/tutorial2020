@@ -103,7 +103,8 @@ We request that you share the assessments with us privately (i.e., they should n
 
 You can craft simple multiple-choice questions to supplement video or written content. In this case, if  you provide them to us in this markdown format, so we can embed them in the course:
 
-`>>Statement of the question <<
+```
+>>Statement of the question <<
 
 ( ) wrong answer
 (x) right answer
@@ -112,4 +113,4 @@ You can craft simple multiple-choice questions to supplement video or written co
 
 [Explanation]
 A short explanation to help learner get it right next time.
-[Explanation]`
+[Explanation]```
