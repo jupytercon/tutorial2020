@@ -119,3 +119,20 @@ A short explanation to help learner get it right next time.
 Open edX offers several [core problem types](https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-ironwood.master/exercises_tools/create_exercises_and_tools.html#core-problem-types), and we can accommodate any of these in your tutorial. 
 Please discuss with us by emailing to: 
 [jupytercon-tutorials@numfocus.org](mailto:jupytercon-tutorials@numfocus.org)
+
+### Jupyter auto-graded notebooks
+
+For the tutorial to be most effective, you should include exercises for the learners. 
+These exercises, written as Jupyter notebooks, can be auto-graded in the course platform. 
+For that, you need to write the exercises in a format that allows using `nbgrader` to create an assignment. 
+We have developed an integration in the course platform that allows  running `nbgrader` in a container and checking the learner's assignment, at the click of a button.
+
+Each exercise should be divided into incremental steps, and you provide the solution, and a test, as in the following example: 
+
+![](images/graded_exercise_sample.png)
+
+In the screenshot above, the solution is in cell 3. After we process the notebook, the code between the marks `### BEGIN SOLUTION` and `### END SOLUTION` will be replaced by a note to the learner to "write your code here." 
+
+The tests in cell 4 will be hidden from the learner, but will be active and used to check the learners code against the correct answer.
+
+Your notebook should include all the needed `import` statements at the top, and you should include `nose` in the `requirements.txt` (as well as all other dependencies, with their versions).
