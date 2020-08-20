@@ -101,7 +101,7 @@ View the example at [https://jupytercon.github.io/tutorial2020/#/](https://jupyt
 A good tutorial will provide several opportunities for learners to self-assess, and we ask instructors to build these into their tutorial. 
 We request that you share the assessments with us privately (i.e., they should not be included in the public repository).
 
-You can craft simple multiple-choice questions to supplement video or written content. In this case, if  you provide them to us in this markdown format, so we can embed them in the course:
+You can craft simple multiple-choice questions to supplement video or written content. In this case, please provide them to us in this markdown format, so we can embed them in the course:
 
 ```
 >>Statement of the question <<
@@ -113,4 +113,9 @@ You can craft simple multiple-choice questions to supplement video or written co
 
 [Explanation]
 A short explanation to help learner get it right next time.
-[Explanation]```
+[Explanation]
+```
+
+Open edX offers several [core problem types](https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-ironwood.master/exercises_tools/create_exercises_and_tools.html#core-problem-types), and we can accommodate any of these in your tutorial. 
+Please discuss with us by emailing to: 
+[jupytercon-tutorials@numfocus.org](mailto:jupytercon-tutorials@numfocus.org)
