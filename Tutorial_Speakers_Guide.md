@@ -14,12 +14,14 @@ To access the learning sequences on the course platform, however, participants n
 The written materials must be on Jupyter notebooks because the course building process pulls content directly from notebooks in a GitHub repository to display a learning sequence in the online course platform.
 
 ## Speaker commitment:
-The speakers will be asked to deliver their prepared materials by **September 11, 2020**, for the JupyterCon team to prepare an online course using the materials, on the JupyterCon learning platform. 
-The speakers will be asked to participate in “office hours” on a video conference with participants during the tutorials week (5–9 October). Speakers are requested to participate in the chat discussions during the tutorials and conference weeks, as their time permits.
+The speakers will deliver their prepared materials by **September 11, 2020**, for the JupyterCon team to prepare an online course using the materials, on the JupyterCon learning platform. 
+The materials should include an outline that traces a path through the content, with signposts of where each video and other elements (like exercises) should go.
+Speakers will hold “office hours” or "recitations" on a video conference with participants during the tutorials week (5–9 October). 
+Speakers are requested to participate in the chat discussions during the tutorials and conference weeks, as their time permits.
 
 ## JupyterCon commitment: 
 JupyterCon and NumFOCUS volunteers and staff will build the online courses using instructor-created materials.
-All source course material will be publicly available for free (videos on the JupyterCon YouTube channel and Jupyter notebooks on GitHub), but the online courses created in the JupyterCon platform will be accessible to registered participants only. The online course created with the contributed materials will remain after the conference is past. The course platform will embed a discussion forum, using a Mattermost instance provided by NumFOCUS/JupyterCon.
+All source course material will be publicly available for free (videos on the JupyterCon YouTube channel and Jupyter notebooks on GitHub), but the online courses created in the JupyterCon platform will be accessible to registered participants only. The online course created with the contributed materials will remain after the conference is past, and may continue to be used as micro-learning offering by NumFOCUS. The course platform will embed a discussion forum, using a Mattermost instance provided by NumFOCUS/JupyterCon.
 
 ## Infrastructure
 
