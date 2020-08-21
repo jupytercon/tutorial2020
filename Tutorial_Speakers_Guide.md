@@ -6,6 +6,7 @@ Each tutorial consists of several short pre-recorded videos (<30min each), plus 
 
 During the tutorials week of JupyterCon (5–9 October 2020), pre-recorded videos will air on YouTube Premiere at scheduled times, and tutorial instructors will participate in live discussion with the participants via video conference, also at scheduled times. 
 Threaded text chat will be available throughout for all participants and instructors to engage in conversation asynchronously.
+All the videos will remain for on-demand viewing in the JupyterCon YouTube channel after their release.
 
 JupyterCon will build an online course with the materials provided by the instructors, which will remain available after the conference. 
 The instructors' content is always open access and free: videos on the JupyterCon YouTube channel, and notebooks in a GitHub repository (under standard public licenses). 
