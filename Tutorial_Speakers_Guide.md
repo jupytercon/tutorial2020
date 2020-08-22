@@ -1,5 +1,7 @@
 # Tutorial Speakers Guide
 
+by **Lorena A. Barba**, JupyterCon 2020 General Chair
+
 ## General design
 
 Each tutorial consists of several short pre-recorded videos (<30min each), plus written materials to supplement and expand on the presentations, provided as Jupyter notebooks in the tutorial repository. 
