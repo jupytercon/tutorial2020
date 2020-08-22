@@ -144,7 +144,10 @@ These exercises, written as Jupyter notebooks, can be auto-graded in the course 
 For that, you need to write the exercises in a format that allows using `nbgrader` to create an assignment. 
 We have developed an integration in the course platform that allows  running `nbgrader` in a container and checking the learner's assignment, at the click of a button.
 
-Each exercise should be divided into incremental steps, and you provide the solution, and a test, as in the following example: 
+Each exercise should be divided into incremental steps, and you provide the solution, and a test, usign the `nbgrader` annotations. 
+See the [`nbgrader` documentation](https://nbgrader.readthedocs.io/en/stable/user_guide/creating_and_grading_assignments.html#autograded-answer-cells) for detailed instructions on how to insert an "Autograded answer" and an "Autograded test."
+
+Here is an example: 
 
 ![](images/graded_exercise_sample.png)
 
@@ -152,4 +155,26 @@ In the screenshot above, the solution is in cell 3. After we process the noteboo
 
 The tests in cell 4 will be hidden from the learner, but will be active and used to check the learners code against the correct answer.
 
-Your notebook should include all the needed `import` statements at the top, and you should include `nose` in the `requirements.txt` (as well as all other dependencies, with their versions).
+Your assignment notebook should include all the needed `import` statements at the top, and you should include `nose` in the `requirements.txt` (as well as all other dependencies, with their versions).
+
+You will need to [install](https://nbgrader.readthedocs.io/en/stable/user_guide/installation.html) the `nbgrader` Jupyter extension. 
+You will only be using the "Create assignment tool," and do not need to follow the later steps to create a student's version of the assignment, as this will be done automatically on the platform.
+
+Open the raw version of your assignment notebook in the environment where you installed `nbgrader`, and you should have the option shown in the screenshot below:
+
+![](images/create_assignment.png)
+
+Select "Create Assignment." Every notebook cell should now have a selector to pick the cell type, as shown below:
+
+![](images/cell_options.png)
+
+Work down the notebook making a selection for every cell:
+
+- "Read-only" for markdown cells with instructions, and cells with `import` commands that you don't want anyone to mess with.
+- "Autograded answer" for code cells that contain the solutions.
+- "Autograded test" for code cells that contain teh tests.
+
+Save the notebook, and this is the version you should send to us. We will create a _private repository_ for all the assignment notebooks. 
+Don't include them in the public tutorial repository.
+
+**Pro Tip**: Use a rationa naming convention for your tutorial assignment notebooks with a prefix for your tutorial, and a consecutive number for the assignment.
