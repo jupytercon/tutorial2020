@@ -162,7 +162,7 @@ You will only be using the "Create assignment tool," and do not need to follow t
 
 Open the raw version of your assignment notebook in the environment where you installed `nbgrader`, and you should have the option shown in the screenshot below:
 
-![](images/create_assignment.png)
+<img src="images/create_assignment.png" width="440" height="250">
 
 Select "Create Assignment." Every notebook cell should now have a selector to pick the cell type, as shown below:
 
@@ -177,4 +177,4 @@ Work down the notebook making a selection for every cell:
 Save the notebook, and this is the version you should send to us. We will create a _private repository_ for all the assignment notebooks. 
 Don't include them in the public tutorial repository.
 
-**Pro Tip**: Use a rationa naming convention for your tutorial assignment notebooks with a prefix for your tutorial, and a consecutive number for the assignment.
+**Pro Tip**: Use a rational naming convention for your tutorial assignment notebooks with a prefix for your tutorial, and a consecutive number for the assignment.
