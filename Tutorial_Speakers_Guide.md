@@ -60,6 +60,8 @@ We have deployed a Mattermost server, and integrated it to the course platform v
 
 The online course platform also includes a custom plug-in that allows us to schedule video calls using our Webex account. 
 Participants will be able to join he call with one click from the course.
+This facility will be used for the daily "office hours" or "recitations" with tutorial instructors, scheduled in advance. 
+
 
 ## Guide to crafting your materials
 
@@ -77,6 +79,13 @@ That way, the learning sequence can interleave content from the notebooks, video
 
 In other words, your Jupyter notebooks are like the "textbook," while a learning sequence mixes this content with other experiences or activities.
 
+While we ask that you have a full draft of your notebooks by the delivery date (Sep. 11), you will be able to continue editing the notebooks on GitHub.
+As long as you have provided an accurate outline, and you do not make changes to section and sub-section headings, the course building process can go on in parallel to your final edits.
+The course learning sequences pull content _dynamically_ from the notebooks. 
+To be specific: each time a participant visits a section in the course, the Jupyter viewer extension we added to the platform will pull the notebook from its public URL, run `nbconvert`, and display the HTML output.
+
+Building online courses in this way allows us to have the full display richness of Jupyter notebooks: beautiful equations, embedded images in the markdown, syntax-highlighted code, plot outputs, etc. 
+
 **Pro tip**: while you are writing your content as Jupyter notebooks, always _clear output_ before pushing to the repository.
 This will facilitate diff-viewing and keep the repo smaller. 
 Only push the notebooks with output once you feel they are done. 
@@ -90,6 +99,11 @@ These videos can be content-dense, as the live interactions during tutorials wee
 
 Your videos can be recorded as a screencast of you live coding and narrating, a slide-based presentation, a camera capture of yourself explaining or narrating some concept, or a mix of all these. 
 You can provide video segments and request our media team to post-process, as needed. 
+
+All speakers will be offered a lapel microphone and halo lamp, to help them record quality video (we may choose the items and send you a link with a gift card, so you get the items shipped to you). 
+NumFOCUS will prepare a streamlined workflow for you to deliver the raw video, and will send you written instructions.
+In post-processing, we will improve audio, and may add an intro and credits in the end.
+We will then post the video on the JupyterCon YouTube channel.
 
 ### Slides
 
