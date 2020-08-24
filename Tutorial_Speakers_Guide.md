@@ -178,3 +178,11 @@ Save the notebook, and this is the version you should send to us. We will create
 Don't include them in the public tutorial repository.
 
 **Pro Tip**: Use a rational naming convention for your tutorial assignment notebooks with a prefix for your tutorial, and a consecutive number for the assignment.
+
+**We strongly encourage tutorials to be complemented by autograded exercises for participants.**
+But we acknowledge that this is hard work for the tutorial speakers. 
+Even if your core materials for the tutorial are requested by September 11, we will continue to receive the autograded exercises until the week before the tutorial starts!
+
+The process of building learning sequences on the course platform using your videos and Jupyter notebooks is time consuming. 
+Adding an assignment, however, is quick. 
+(Remember to add `nose` to your `requirements.txt`.)
