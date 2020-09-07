@@ -49,7 +49,7 @@ JupyterCon will have a dedicated JupyterHub server that all participants will ha
 In addition, we've developed integrations so that it will be possible for tutorial attendees to launch a JupyterHub session with the notebooks provided by the instructor, so they can interact with the computable content. 
 
 In your outline, you can specify places in the course content where you want learners to find a "Launch Lab" button, which will launch a Jupyter session with your notebooks pre-loaded. 
-You need to provide an environment definition, either in the form on a `requirements.txt` file (for pure python envionments) or an `environment.yaml` file for conda environments, at the root of your repository.
+You need to provide an environment definition, either in the form on a `requirements.txt` file (for pure Python envionments) or an `environment.yaml` file (for conda environments) at the root of your repository.
 
 ### Chat server
 
